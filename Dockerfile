@@ -9,6 +9,8 @@ ARG ETHEREUM_RPC_URL
 # Set environment variables
 ENV ETHEREUM_RPC_URL=${ETHEREUM_RPC_URL}
 
+
+
 # Install build tools for native dependencies
 RUN apt-get update && apt-get install -y \
     python3 \
